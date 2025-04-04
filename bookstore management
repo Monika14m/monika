@@ -17,7 +17,6 @@
            <form class="d-flex" >
              <a class="nav-link" href="#">Welcome {{request.user}}</a>
              <a href="/logout/" class="btn btn-outline-success mx-4" type="submit">Logout</a>
-
            {% else %}
            <form class="d-flex" >
               <a href="/signup/" class="btn btn-outline-dark" type="submit">Sign Up</a>
